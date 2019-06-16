@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+
+    <title>Word Guess Game</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+
+        alert("Please guess who I am?");
+        alert("A father's child, a mother's child yet no one's son.");
+        var answer = ("a daughter");
+        var guess = prompt("Who am I?");
+        var i;
+        for (i = 0; i < 2; i++) {
+
+            if (answer == guess) {
+                alert("Congratulations, you got it!!");
+
+            } else {
+                guess = prompt("Please try again!!!");
+            }
+
+
+        }
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
