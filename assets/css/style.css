@@ -3,7 +3,7 @@
 }
 
 body {
-    background: pink;
+    background-image: url("images/160704.png");
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     font-size: 30px;
@@ -30,12 +30,10 @@ body {
   
 }
 
-
 p {
   font-size: 20px;
 
 }
-
 
 #alphabet {
   margin: 15px auto;
@@ -116,8 +114,9 @@ p {
   padding: 30px;
 }
 
-#clue {
+.wrapper#clue {
     clear: both;
+    width: 20px;
     padding: 30px;
     font-size: 30px;
     color: rgb(184, 180, 180);
@@ -126,10 +125,7 @@ p {
     margin: center;
     margin-left: 150px;
     margin-right: 150px;
-
-
-
-    
+ 
 }
 
 button {
@@ -158,31 +154,3 @@ button:hover {
   color: grey;
 }
 
-@media (max-width: 1440px) {
-  #alphabet {
-    padding: 0 0 0 15px;
-   
-  }
-  
-}
-
-@media (max-width: 1024px) {
-  #alphabet {
-    padding: 0 0 0 15px;
-    margin-left: 90px;
-  
-  }
-}
-
-@media (max-width: 768px) {
-  #alphabet {
-    padding: 0 0 0 15px;
-    margin-left: 20px;
-  
-  }
-}
-@media (max-width: 480px) {
-  #alphabet {
-    padding: 0 0 0 25px;
-  }
-}
